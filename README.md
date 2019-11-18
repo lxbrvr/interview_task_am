@@ -1,9 +1,9 @@
-#### Description
+## Description
 
 A simple Categories API that stores category tree to database and returns category
 parents, children and siblings by category id.
 
-#### Solution
+## Solution
 
 The tree is stored in the database as nested sets.
 
@@ -13,24 +13,24 @@ Some approaches used for efficient inserting:
 
 As a result, we get effective reading and inserting.
 
-#### Stack
+## Stack
 
 - python 3.8
 - django 2.2.7
 
-#### Requirements
+## Requirements
 
 - docker
 - docker-compose
 
-#### API
+## API
 
 There are two endpoints:
 
 - `POST /categories/` - accepts json body and saves categories to database;
 - `GET /categories/{id}/` - retrieves category name, parents, children and siblings by primary key in json format.
 
-#### Commands
+## Commands
 
 Commands are run from the root directory.
     
