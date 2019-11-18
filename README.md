@@ -17,6 +17,7 @@ As a result, we get effective reading and inserting.
 
 - python 3.8
 - django 2.2.7
+- postgres
 
 ## Requirements
 
