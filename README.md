@@ -7,7 +7,7 @@ parents, children and siblings by category id.
 
 The tree is stored in the database as nested sets.
 
-Some approaches used for efficient inserting:
+Some approaches used for efficient work:
 - for inserting a node used bulk_create;
 - uniqueness names check occurs on one database query;
 
